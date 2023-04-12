@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{   
+    font-family:  Arial, Helvetica, sans-serif;  
+}
+
+body{
+    background-image: linear-gradient(35deg, #C4EEF2, #7AB8BF );
+    background-attachment: fixed;/*deixa o background fixo(com esse valor)*/
+}
+
+main{
+    background-color: #f2e3d5;
+    width: 600px;/*controla o tamanho do container do main*/
+    padding: 10px;/*paginação:da um pequeno espaço na borda do texto*/
+    margin: auto; /*controla a margem:nesse caso foi usado para centralizar o container */
+    border-radius: 10px;/*regular o raio da borda*/
+    box-shadow: 5px 5px 15px #4c7377c0;/*sombra do container*/   
+}
+
+h1{
+    color: #A67458;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8a614abe;
+}
+
+h2{
+    color: #025159;
+}
+
+p{  
+    text-align: justify /*mantém a proporão da borda do texto*/
+}

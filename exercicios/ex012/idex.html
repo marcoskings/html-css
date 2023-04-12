@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedado localmente</h1>
+    <p>Este video esta alocado no meu próprio servidor</p>
+
+    <video  width="600" height="350" poster="media/thumb-glass2.jpg" controls muted autoplay>
+        <source src="media/glass.mp4" type="video/mp4">
+        <source src="media/glass.ogv" type="video/ogg">
+        <source src="media/glass.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com a reprodução de video</p>
+    </video>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/BEePFpC9qG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h1>Inserindo video do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/267618536?h=ea63662ab2&color=ffffff&title=0&byline=0&portrait=0" width="600" height="350" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; gyroscope; accelerometer" allowfullscreen></iframe>
+    
+</body>
+</html>
